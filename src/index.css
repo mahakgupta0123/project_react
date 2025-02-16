@@ -1,11 +1,58 @@
-@import "tailwindcss";
+/* @import "tailwindcss"; */
 
 *{
   margin:0;
   padding:0;
 }
 
-div{
-  background-color:black;
-  color:white;
+body{
+  height:100%;
+  width:100%
+}
+
+.wrapper{
+  background-color:antiquewhite;
+  color:greenyellow;
+  height:80px;
+  width:100%;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  border-bottom:2px solid black;
+}
+
+.logo{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  padding-left:50px;
+}
+
+.buttons{
+    padding-right:10px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.same{
+  margin:10px;
+  padding:10px;
+  font-size:0.90em;
+  font-weight:700;
+  background-color:greenyellow;
+  border-radius:4px;
+  border-right:6px solid black;
+  border-bottom:6px solid black;
+  width:80px;
+}
+
+.same1{
+  margin:10px;
+  padding:10px;
+  font-size:0.90em;
+  font-weight:700;
+  background-color:whitesmoke;
+  border-radius:4px;
+  width:80px;
 }
