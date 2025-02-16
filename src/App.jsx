@@ -11,9 +11,9 @@ const App=()=>{
           <button class="same1">sign in</button>
           <button class="same">sign up</button>
         </div>
-
     </div>
 )
 }
+
 
 export default App

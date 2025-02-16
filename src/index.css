@@ -56,3 +56,14 @@ body{
   border-radius:4px;
   width:80px;
 }
+
+.h1{
+  text-align:center;
+  padding-top:60px;
+}
+
+span{
+  text-align:center;
+  color:greenyellow;
+  padding-top:60px;
+}
