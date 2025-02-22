@@ -6,7 +6,7 @@ const App=()=>{
   return(
     <>
     <Header/>
-    <h1>logo of the brand</h1>
+    <h1><center>logo of the brand</center></h1>
     <h1 class="h1">WELCOME TO MIND&nbsp;<span>MASTER</span></h1>
     <div class="button">
     <button class="same2">apply now!</button>
