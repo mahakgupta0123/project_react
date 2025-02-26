@@ -12,9 +12,9 @@ const App=()=>{
     <button class="same2">apply now!</button>
     </div>
     <div class="container">
-    <Card/>
-    <Card/>
-    <Card/>
+    <Card heading="mahak is good" para="loraaa is happening right now blah blah....." color1="red"/>
+    <Card heading="nayan is good" para="loraaa is happening right now blah blah....."/>
+    <Card heading="deepanshu is good" para="loraaa is happening right now blah blah....."/>
     </div>
     </>
    
@@ -22,4 +22,4 @@ const App=()=>{
 }
 
 
-export default App
+export default App 

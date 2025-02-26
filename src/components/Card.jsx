@@ -1,13 +1,14 @@
 import React from 'react'
 
-const Card = () => {
+const Card = ({heading,para,color1}) => {
+  let styles={color:color1};
   return (
     <div class="card">
-        <h2>Personalised study platform</h2>
-        <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et inventore eligendi voluptate sit eos odio doloremque debitis</h5>
+        <h2 style={styles}>{heading}</h2>
+        <h5>{para}</h5>
         <button class="hi">Hi there!</button>
     </div>
   )
 }
 
-export default Card
+export default Card 
