@@ -6,7 +6,7 @@ const Card = ({heading,para,color1}) => {
     <div class="card">
         <h2 style={styles}>{heading}</h2>
         <h5>{para}</h5>
-        <button class="hi">Hi there!</button>
+        <button class="hi">Hi there viewers!</button>
     </div>
   )
 }
