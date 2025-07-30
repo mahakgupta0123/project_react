@@ -6,15 +6,15 @@ function App() {
 
   return (
     <>
-      <h1>Counter value: {counter}</h1>
+      <h1 className="bg-amber-100 text-2xl text-amber-300">Counter value: {counter}</h1>
       <button
         onClick={() => {
-          counter = counter + 1;
+          // counter = counter + 1;
           if (counter == 20) {
             alert("you're exceeding value");
             setCounter(20);
           } else {
-            setCounter(counter);
+            setCounter(counter + 1);
           }
         }}
       >
@@ -23,12 +23,12 @@ function App() {
 
       <button
         onClick={() => {
-          counter = counter - 1;
-          if (counter ==0){
+          // counter = counter - 1;
+          if (counter <= 0) {
             alert("you're going in negative counter");
             setCounter(0);
           } else {
-            setCounter(counter);
+            setCounter(counter - 1);
           }
         }}
       >
