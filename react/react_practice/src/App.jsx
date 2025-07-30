@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Card from "./Components/Card";
 
 function App() {
   // let counter=0;
@@ -34,6 +35,8 @@ function App() {
       >
         decrease value
       </button>
+      <Card name="mahak" heading="cute"/>
+      <Card name="nayan" heading="anger"/>
     </>
   );
 }
