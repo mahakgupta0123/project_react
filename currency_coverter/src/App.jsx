@@ -2,7 +2,8 @@ import { useState } from "react";
 import InputBox from "./Components/InputBox";
 
 function App() {
-  let BackgroundImage= "https://media.istockphoto.com/id/1276592794/photo/digital-stock-market-charts-and-diagrams.webp?a=1&b=1&s=612x612&w=0&k=20&c=Y99cA8xcA9vXrBT4pimHGGQs9ehZBWd-AtpKxXO0ijQ="
+  let BackgroundImage =
+    "https://media.istockphoto.com/id/1276592794/photo/digital-stock-market-charts-and-diagrams.webp?a=1&b=1&s=612x612&w=0&k=20&c=Y99cA8xcA9vXrBT4pimHGGQs9ehZBWd-AtpKxXO0ijQ=";
 
   return (
     <div
