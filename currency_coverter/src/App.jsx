@@ -1,5 +1,5 @@
 import { useState } from "react";
-import InputBox from "./Components/InputBox";
+import InputBox from "./Components/index.js"
 
 function App() {
   let BackgroundImage =
