@@ -34,10 +34,11 @@ function InputBox({
           }}
           disabled={currencyDisable}
         >
-          currencyOptions.map{(currency)=>{
-             <option  key={currency} value={currency}>{currency}</option>
-          }}
-         
+          {currencyOptions.map((currency) => (
+            <option key={currency} value={currency}>
+              {currency.toUpperCase()}
+            </option>
+          ))}
         </select>
       </div>
     </div>

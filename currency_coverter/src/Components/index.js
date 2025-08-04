@@ -1,3 +1,3 @@
 import InputBox from "./InputBox";
-
-export {InputBox}
+// console.log("InputBox imported:", InputBox);  // Should show the component function
+export { InputBox };
