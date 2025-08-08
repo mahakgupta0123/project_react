@@ -15,7 +15,7 @@ export default function Header() {
           <Links linkName="Home" linkPath="/home"/>
           <Links linkName="About us" linkPath="/about"/>
           <Links linkName="Contact us" linkPath="/contact"/>
-          {/* <Links linkName="Github" linkPath="/home"/> */}
+          <Links linkName="Github" linkPath="/github"/>
           <div className="flex items-center lg:order-2">
             <Link
               to="#"
